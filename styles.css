@@ -3,29 +3,31 @@
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
-    background-color: white;
+    background:rgba(0, 0, 0,0.75);
 }
 #div2{
     margin: auto;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
-    background-color: white;
+    background:rgba(0, 0, 0,0.75);
     margin-top: 50px;
     height: 300px;
 }
 #title{
-    font-family: fantasy;
+    font-family: monospace;
+    font-size: 60px;
     margin: auto;
     text-align: center;
+    color: black;
+    animation: normal;
 }
 #titlet{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
     margin: auto;
     text-align: center;
-}
-#body{
-    background-color: white;
+    color: black;
+    animation: normal;
 }
 #div3{
     margin-left: 15%;
@@ -34,7 +36,7 @@
     width: 32%;
     height: 50%;
     float: left;
-    border: 2px solid black;
+    border: 2px  black;
 
     
 }
@@ -45,29 +47,77 @@
     width: 32%;
     height: 50%;
     float: right;
-    border: 2px solid black;
+    border: 2px  black;
 
 }
 #image{
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 30px;
-    border: 2px solid black;
+    border: 2px black;
 
 }
 #link{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
-    color: black;
+    color: white;
     font-style: normal;
-    border: 5px solid black;
-    margin-top: 0px;
-    margin-left: 15px;
+    border: 2px solid white;
+    margin-top: 500px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#link2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: white;
+    font-style: normal;
+    margin-top: 50px;
+    margin-left: 22%;
+    padding-top: 50px;
+    text-decoration: none;
+    
 }
 #header{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
 }
 #description{
     font-size: medium;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: monospace;
+    color: white;
+}
+#body{
+    background-image: url("background.jpg");
+    background-size: 3000px 1500px;
+}
+#p{
+    font-family: monospace;
+    color: white;
+}
+#header{
+    font-family: monospace;
+    color: white;
+}
+#container{
+    float: right;
+}
+#bottom{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:rgba(0, 0, 0,0.75);
+    height: 100px;
+    bottom: 0;
+    margin-top: 50px;
+    left: 0;
+}
+#text{
+    font-size: medium;
+    top: 100px;
+    margin-left: 50px;
+    color:  white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    text-align: center;
 }
